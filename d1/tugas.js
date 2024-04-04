@@ -9,7 +9,6 @@ let pendapatan = 500
 const thr = 50
 
 let saldoAkhir = saldoAwal + pendapatan + thr
-
 let saldo = prompt(`Saldo awal Anda adalah Rp.${saldoAwal}, dan pendapatan Anda sebelumnya Rp.${pendapatan}, kemarin anda mendapatkan THR sebesar Rp.${thr}, apakah Anda ingin melihat saldo akhir Anda dari semua yang sudah Anda dapatkan?`)
 if (saldo == "iya" || saldo == "ya") {
    alert(`Saldo akhir Anda: Rp.${saldoAkhir}`)
